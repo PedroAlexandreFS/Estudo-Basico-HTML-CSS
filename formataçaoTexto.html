@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de Texto</title>
 </head>
+
 <body>
-    <h1>Principais  formatações</h1>
+    <h1>Principais formatações</h1>
     <h2>Negrito / Destaque</h2>
     <!--A tag B não é semântica é forma.-->
-    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag "B"</p> 
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag "B"</p>
     <!--já nesse caso é semântica-->
-    <p>Nesta frase temos um <strong>termo em negrito</strong> usando a tag "STRONG"</p> 
+    <p>Nesta frase temos um <strong>termo em negrito</strong> usando a tag "STRONG"</p>
     <h2>Itálico / Ênfase</h2>
     <!--A tag I não é semântica é forma.-->
     <p>Nesta frase temos um <i>termo em itálico</i> usando a tag "I"</p>
@@ -24,7 +26,7 @@
     enquanto a small ainda está  em uso-->
     <P>Tem um texto <big>grande aqui</big> e <small>um pequeno aqui</small></P>
     <h2>Texto Deletado</h2>
-    <p>podemos marca um texto para mostra quando o texto deve ser  <del>desconsiderado ou excluido</del></p>
+    <p>podemos marca um texto para mostra quando o texto deve ser <del>desconsiderado ou excluido</del></p>
     <h2>Texto inserido</h2>
     <p>aqui um texto <ins>inserido ou sublinhado</ins></p>
     <!--A tag não semântica-->
@@ -32,5 +34,30 @@
     <h2>Texto sobrescrito</h2>
     <p>aqui um texto com <sup>linha em cima</sup></p>
     <p>aqui um texto com <sub>linha em embaixo</sub></p>
+    <h2>ódigo-fonte / pré-formatação</h2>
+    <p>O comando<code> document.getElementById("teste")</code> é escrito em javaScript</p>
+    <pre>
+        <code>
+        num = int(input('Digite um número'))
+        if num % 2==0;
+            print(f'número {num} é par')
+        else
+            print(f'numero{num} é impar')
+        print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <P>pedro: <q>Eu amo pão</q></P>
+    <!--exemplo de citação em block-->
+    <p> autor do livro falou:</p>
+    <blockquote cite="www.gloogle.com.br">
+        a dierença do html,css,js é o seguinte
+        o html é o esqueleto, css a pele e o js é o cerebro
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>aqui tem <abbr title="hyper text markup linguage">html</abbr> e <abbr title="cascading style sheets">css</abbr></p>
+    <h2>texto invertido</h2>
+    <P bdo dir="rtl">estou aprendendo a criar html</P>
 </body>
+
 </html>

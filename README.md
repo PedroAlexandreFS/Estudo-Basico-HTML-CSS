@@ -6,3 +6,4 @@ HTML5
 * `hieraquiaTitulo.html`: atividade sobre as  hieraquia dos titulos.
 * `formataçãoTexto.html`: usando algumas tags de formatação eolhando uais são semânticas ou não, e que estão obsoletas ou não.
 * `lista.html`: atividade de como usar as lista ordenadas e não ordenadas.
+* `links.html`: atividade para usar links no html.

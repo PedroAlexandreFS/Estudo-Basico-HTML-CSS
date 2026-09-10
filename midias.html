@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+
+<body>
+    <h1>imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="img/pequena.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img/Media.png" type="image/png">
+        <img src="img/grande.png" alt="imagem dinamica">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <!-- Primeira maneira-->
+    <audio src="audio/guanacast-33.mp3" controls autoplay loop></audio>
+    <!--MP3 WAV OGG-->
+    <!-- segunda maneira-->
+    <audio preload="metadata">
+        <source src="audio/guanacast-33.mp3" type="audio/mpeg">
+        <source src="audio/guanacast-33.mp3" type="audio/ogg">
+        <source src="audio/guanacast-33.mp3" type="audio/wav">
+        <P>Infelizmente seu navegador não conseguer reproduzir audio</P>
+    </audio>
+    <h1>Videos hospedado localmente</h1>
+    <!-- podem ter um custo muito grande para o cliente-->
+    <video width ="560px" poster="img/limoes-capa.png" controls>
+        <source src="video/video-sitemp4.mp4" type="video/mp4">
+        <source src="video/video-sitewebm.webm" type="video/webm">
+        <P>seu navegador não compativel com o video</P>
+    </video>
+    <h2>videos externos</h2>
+    <h3>pegando videos do youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=ySwMrTAhtgIcxUDG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>

@@ -7,3 +7,4 @@ HTML5
 * `formataçãoTexto.html`: usando algumas tags de formatação eolhando uais são semânticas ou não, e que estão obsoletas ou não.
 * `lista.html`: atividade de como usar as lista ordenadas e não ordenadas.
 * `links.html`: atividade para usar links no html.
+* `midias.html`: vendo como usar varias opções de midias,como imagens,videos e audio.

@@ -8,3 +8,7 @@ HTML5
 * `lista.html`: atividade de como usar as lista ordenadas e não ordenadas.
 * `links.html`: atividade para usar links no html.
 * `midias.html`: vendo como usar varias opções de midias,como imagens,videos e audio.
+* `CssInline`:atividade para mostra o css dentro do html embora não seja recomendado pois fica bagunçado, mas em certas situações para modificações epecificas em elemntos especificosas vezes é melhor usar o inline.(encorporado na tag).
+* `cssinterno.html`: atividade para usar o css dentro do htmlna tag style.
+* `cssExterno.html`: atividade para usar o cssfora da pagina em outro ducumento ou pasta. 
+*
